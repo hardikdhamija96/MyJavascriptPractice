@@ -21,6 +21,8 @@
     - **reduce/**
       - `reduce.md`: Overview of the `Array.prototype.reduce` method.
       - `reducePolyfill.js`: Polyfill implementation for `Array.prototype.reduce`.
+- **dataStructures/**: (To be populated with data structure implementations)
+- **tests/**: (To be populated with test files)
 
 ## Polyfills Included
 
