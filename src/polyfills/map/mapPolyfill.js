@@ -1,7 +1,3 @@
-const arr = [1,2,3,4,5];
-
-// const doubleArr = arr.map((el)=>el*2);
-// console.log(doubleArr);
 
 Array.prototype.MyMap= function(cb){
     const newArr=[];
@@ -12,9 +8,3 @@ Array.prototype.MyMap= function(cb){
     return newArr;
 }
 
-// function doubleVal(el){
-//     return el*2;
-// }
-
-const doubleArr = arr.MyMap((el)=>el*2);
-console.log(doubleArr);
